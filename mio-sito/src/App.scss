@@ -1,0 +1,32 @@
+@use "./styles/variables.scss" as *;
+@use "./styles/mixins.scss" as *;
+@use "./styles/AboutMe.scss";
+@use "./styles/Contact.scss";
+@use "./styles/Experiences.scss";
+@use "./styles/Footer.scss";
+@use "./styles/Navbar.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* $primary-color: #0f1724;
+ */
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 2rem;
+}
